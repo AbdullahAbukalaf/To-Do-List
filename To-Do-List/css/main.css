@@ -1,0 +1,71 @@
+body{background-color: #04A1BF;text-align: center}
+.intro{margin: 30px 0;font-weight: bold}
+h1{color: #ffffff;text-transform: uppercase;font-weight: 800}
+.container{margin-top: 50px}
+p{font-weight: 600}
+.p1{color: #FFCD5D;}
+.p2{color: #51DF70}
+.p3{color: #025F70}
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+.input1{border: 1px solid #04A1BF;height: 40px;}
+.button1{width: 4%;border: 1px solid #04A1BF;border-radius: 5px;height: 40px;font-size: 18px;font-weight: 600 ;margin-top: 5px;color: white;background-color: #025F70;}
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+  width: 90%;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
+@media (max-width: 700px) {
+input {
+	border-radius: 5px;
+	min-width: 50%;
+	padding: 10px;
+	border: none;
+}
+.button1{width: 8%;border: 1px solid #04A1BF;border-radius: 5px;height: 40px;
+  font-size: 18px;font-weight: bold ;margin-top: 5px;color: white;background-color: #025F70;}
+li{width: 93%}
+}
